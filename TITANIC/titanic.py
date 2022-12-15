@@ -5,7 +5,7 @@ class Kategoria:
 
 kategoriak:list[Kategoria] = []
 
-for sor in open('titanic.txt'):
+for sor in open('TITANIC\\titanic.txt'):
     darabok:list[str] = sor.strip().split(';')
     kat = Kategoria()
     kat.nev = darabok[0]
